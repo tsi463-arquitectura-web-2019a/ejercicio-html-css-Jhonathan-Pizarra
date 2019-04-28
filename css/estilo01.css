@@ -1,0 +1,184 @@
+body{
+    background-color: #555555;
+}
+
+.tituloPagina{
+    font-family: "Tahoma", "Geneva", sans-serif;
+    font-style: normal;  
+    font-size: 30px;    /*tamaño de letra*/
+    color: #ffffff;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    text-anchor: middle;
+}
+
+.subtituloPagina{
+    font-family: "Tahoma", "Geneva", sans-serif;
+    font-style: normal;
+    color: #cccccc;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+
+.barra{
+    width: 1000px;
+    height: 40px;
+    background-color:#ff9800f7;
+    color: #eeeeee;
+    list-style: none;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    /*
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    color: white;
+    text-align: justify;
+    */
+}
+
+h2{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contenido{
+    width: 1000px;
+    height: 40px;
+    background-color:white;
+    color: #333333;
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 0px;
+    font-weight: bold;
+    padding-bottom: 586px;
+    /*
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    color: white;
+    text-align: justify;
+    */
+}
+
+#titulo_1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 7px;
+    padding-top: 15px;
+    color: #ff9800f7;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: "Encode Sans";
+    letter-spacing: -1.5px;
+
+}
+
+#parrafo_1{
+    width: 710px;
+    height: 72px;
+    padding-left: 7px;
+    line-height: 20px;
+    word-spacing: 2px;
+    text-align: justify;
+    /*padding-right: 150px;*/
+
+}
+
+span{
+   color: #ff9800f7;
+   text-decoration: underline;
+}
+
+#imagen_1{
+    padding-left: 7px;
+    padding-top: 30px;
+    /*width: 550px; preguntar al Ing. por qué no valió desde Css*/
+}
+
+#parrafo_2{
+    width: 710px;
+    height: 72px;
+    padding-left: 7px;
+    line-height: 20px;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+#titulo_2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 7px;
+    padding-top: 0px;
+    color: #ff9800f7;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: "Encode Sans";
+    letter-spacing: -1.5px;
+
+}
+
+#parrafo_3{
+    width: 710px;
+    height: 72px;
+    padding-left: 7px;
+    line-height: 20px;
+    word-spacing: 2px;
+    text-align: justify;
+}
+#credenciales{
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 290px;
+}
+
+.opciones{
+    width: 100px;
+    height: 40px;
+    margin-top: 0px;
+    margin-left: 90px;
+    text-align: end;
+
+}
+
+/*Voy con el lado izquierdo..*/
+
+#indice_categorias{
+    margin-left: 760px;
+    list-style: none;
+    margin-top: -20px;
+    position: absolute;
+
+}
+
+#indice_archivos{
+    margin-left: 760px;
+    margin-top: 150px;
+    list-style: none;
+    position: absolute;
+}
+
+.elementos_izquierdos{
+    list-style: none;
+    margin-left: 740px;
+    position: absolute;
+    color: #ff9800f7;
+    line-height: 19px;
+}
+
+.elementos_izquierdos_2{
+    list-style: none;
+    margin-left: 740px;
+    margin-top: 180px;
+    position: absolute;
+    color: #ff9800f7;
+    line-height: 19px;
+}
+
